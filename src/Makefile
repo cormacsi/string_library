@@ -7,7 +7,7 @@ CC = gcc
 GCOV = gcov
 
 ifeq ($(shell uname -p), arm)
-		CC = gcc-12
+		CC = gcc-13
 		GCOV = gcov-12
 endif
 
